@@ -6,7 +6,265 @@ PaginaRegistro
 </name>
 </assembly>
 <members>
-<member name="M:PaginaRegistro.Matriculas.Matriculas.#ctor">
+<member name="M:PaginaRegistro.ServCoordWeb.ServCoordinador.#ctor">
+	<remarks/>
+</member><member name="E:PaginaRegistro.ServCoordWeb.ServCoordinador.DedicacionMediaAsignaturaCompleted">
+	<remarks/>
+</member><member name="E:PaginaRegistro.ServCoordWeb.ServCoordinador.AlumnosAsigCompleted">
+	<remarks/>
+</member><member name="M:PaginaRegistro.ServCoordWeb.ServCoordinador.DedicacionMediaAsignatura(System.String)">
+	<remarks/>
+</member><member name="M:PaginaRegistro.ServCoordWeb.ServCoordinador.DedicacionMediaAsignaturaAsync(System.String)">
+	<remarks/>
+</member><member name="M:PaginaRegistro.ServCoordWeb.ServCoordinador.DedicacionMediaAsignaturaAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:PaginaRegistro.ServCoordWeb.ServCoordinador.AlumnosAsig(System.String)">
+	<remarks/>
+</member><member name="M:PaginaRegistro.ServCoordWeb.ServCoordinador.AlumnosAsigAsync(System.String)">
+	<remarks/>
+</member><member name="M:PaginaRegistro.ServCoordWeb.ServCoordinador.AlumnosAsigAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:PaginaRegistro.ServCoordWeb.ServCoordinador.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:PaginaRegistro.ServCoordWeb.ServCoordinador">
+	<remarks/>
+</member><member name="T:PaginaRegistro.ServCoordWeb.DedicacionMediaAsignaturaCompletedEventHandler">
+	<remarks/>
+</member><member name="P:PaginaRegistro.ServCoordWeb.DedicacionMediaAsignaturaCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:PaginaRegistro.ServCoordWeb.DedicacionMediaAsignaturaCompletedEventArgs">
+	<remarks/>
+</member><member name="T:PaginaRegistro.ServCoordWeb.AlumnosAsigCompletedEventHandler">
+	<remarks/>
+</member><member name="P:PaginaRegistro.ServCoordWeb.AlumnosAsigCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:PaginaRegistro.ServCoordWeb.AlumnosAsigCompletedEventArgs">
+	<remarks/>
+</member><member name="F:PaginaRegistro.ProfesorVIP.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.hlMenuAlum">
+	<summary>
+Control hlMenuAlum.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.Panel1">
+	<summary>
+Control Panel1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.hlAsig">
+	<summary>
+Control hlAsig.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.hlTareas">
+	<summary>
+Control hlTareas.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.hlGrupos">
+	<summary>
+Control hlGrupos.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.hlImpXMLDoc">
+	<summary>
+Control hlImpXMLDoc.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.hlExp">
+	<summary>
+Control hlExp.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.hlImpDS">
+	<summary>
+Control hlImpDS.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.hlImpDS0">
+	<summary>
+Control hlImpDS0.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.Panel2">
+	<summary>
+Control Panel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.Panel4">
+	<summary>
+Control Panel4.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.UpdatePanel2">
+	<summary>
+Control UpdatePanel2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.txtProf">
+	<summary>
+Control txtProf.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.txtAlum">
+	<summary>
+Control txtAlum.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.ScriptManager1">
+	<summary>
+Control ScriptManager1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.Timer1">
+	<summary>
+Control Timer1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.UpdateProgress1">
+	<summary>
+Control UpdateProgress1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.ProfesorVIP.lbCerrarSesion">
+	<summary>
+Control lbCerrarSesion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.Coordinador.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.Coordinador.CabececeraProfesor1">
+	<summary>
+Control CabececeraProfesor1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.Coordinador.DropDownList1">
+	<summary>
+Control DropDownList1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.Coordinador.SqlDataSource1">
+	<summary>
+Control SqlDataSource1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.Coordinador.Label3">
+	<summary>
+Control Label3.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.Coordinador.gvAlum">
+	<summary>
+Control gvAlum.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.Coordinador.Label1">
+	<summary>
+Control Label1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.Coordinador.Label2">
+	<summary>
+Control Label2.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:PaginaRegistro.Coordinador.lbCerrarSesion">
+	<summary>
+Control lbCerrarSesion.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="M:PaginaRegistro.Matriculas.Matriculas.#ctor">
 	<remarks/>
 </member><member name="E:PaginaRegistro.Matriculas.Matriculas.comprobarCompleted">
 	<remarks/>
@@ -1166,14 +1424,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member><member name="F:PaginaRegistro.Profesor.hlImpXMLDoc">
 	<summary>
 Control hlImpXMLDoc.
-</summary>
-	<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member><member name="F:PaginaRegistro.Profesor.hlExp">
-	<summary>
-Control hlExp.
 </summary>
 	<remarks>
 Campo generado automáticamente.

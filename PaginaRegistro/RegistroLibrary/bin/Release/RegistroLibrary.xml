@@ -6,7 +6,27 @@ RegistroLibrary
 </name>
 </assembly>
 <members>
-<member name="P:RegistroLibrary.My.Resources.Resources.ResourceManager">
+<member name="M:RegistroLibrary.Matriculas.Matriculas.#ctor">
+	<remarks/>
+</member><member name="E:RegistroLibrary.Matriculas.Matriculas.comprobarCompleted">
+	<remarks/>
+</member><member name="M:RegistroLibrary.Matriculas.Matriculas.comprobar(System.String)">
+	<remarks/>
+</member><member name="M:RegistroLibrary.Matriculas.Matriculas.comprobarAsync(System.String)">
+	<remarks/>
+</member><member name="M:RegistroLibrary.Matriculas.Matriculas.comprobarAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:RegistroLibrary.Matriculas.Matriculas.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:RegistroLibrary.Matriculas.Matriculas">
+	<remarks/>
+</member><member name="T:RegistroLibrary.Matriculas.comprobarCompletedEventHandler">
+	<remarks/>
+</member><member name="P:RegistroLibrary.Matriculas.comprobarCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:RegistroLibrary.Matriculas.comprobarCompletedEventArgs">
+	<remarks/>
+</member><member name="P:RegistroLibrary.My.Resources.Resources.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>

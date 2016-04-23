@@ -49,6 +49,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -93,12 +95,14 @@
     <Content Include="App_Data\XSLTFile.xsl">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Profesor\Coordinador.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Profesor\CabececeraProfesor.ascx" />
     <Content Include="CambiarPassword.aspx" />
     <Content Include="Confirmar.aspx" />
     <Content Include="Alumno\CabeceraAlumno.ascx" />
     <Content Include="CabeceraInicio.ascx" />
+    <Content Include="Profesor\ProfesorVIP.aspx" />
     <Content Include="Profesor\Exportar.aspx" />
     <Content Include="Inicio.aspx" />
     <Content Include="Profesor\Imagenes\cargando-loading-045.gif" />
@@ -111,6 +115,12 @@
     <Content Include="Profesor\Profesor.aspx" />
     <Content Include="Registro.aspx" />
     <Content Include="Alumno\TareasAlumno.aspx" />
+    <Content Include="Service References\ServCoord\configuration91.svcinfo" />
+    <Content Include="Service References\ServCoord\configuration.svcinfo" />
+    <Content Include="Service References\ServCoord\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </Content>
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -123,6 +133,13 @@
     <Compile Include="Alumno\Alumno.aspx.vb">
       <DependentUpon>Alumno.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Profesor\Coordinador.aspx.designer.vb">
+      <DependentUpon>Coordinador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor\Coordinador.aspx.vb">
+      <DependentUpon>Coordinador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
@@ -161,6 +178,13 @@
     <Compile Include="Copia de CabececeraProfesor.ascx.vb">
       <DependentUpon>CabeceraInicio.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profesor\ProfesorVIP.aspx.designer.vb">
+      <DependentUpon>ProfesorVIP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor\ProfesorVIP.aspx.vb">
+      <DependentUpon>ProfesorVIP.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Profesor\Exportar.aspx.designer.vb">
       <DependentUpon>Exportar.aspx</DependentUpon>
@@ -265,7 +289,17 @@
       <DependentUpon>TareasProfesor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Service References\ServCoord\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Web References\Matriculas\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ServCoordWeb\Reference.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
@@ -300,6 +334,12 @@
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.vb</LastGenOutput>
     </Content>
+    <Content Include="Service References\ServCoord\ServCoordinador.wsdl" />
+    <None Include="Web References\ServCoordWeb\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\ServCoordWeb\ServCoordinador.wsdl" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -320,6 +360,17 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
+    <WebReferenceUrl Include="http://servwebhads.azurewebsites.net/ServCoordinador.asmx%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ServCoordWeb\</RelPath>
+      <UpdateFromURL>http://servwebhads.azurewebsites.net/ServCoordinador.asmx%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>PaginaRegistro_ServCoordWeb_ServCoordinador</CachedSettingsPropName>
+    </WebReferenceUrl>
     <WebReferenceUrl Include="http://sw14.hol.es/ServiciosWeb/comprobarmatricula.php%3fwsdl">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\Matriculas\</RelPath>
@@ -331,6 +382,9 @@
       <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>PaginaRegistro_Matriculas_Matriculas</CachedSettingsPropName>
     </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServCoord\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

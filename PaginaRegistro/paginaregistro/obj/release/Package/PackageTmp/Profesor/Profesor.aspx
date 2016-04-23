@@ -40,10 +40,6 @@
             <br />
             <br />
             <br />
-            <asp:HyperLink ID="hlExp" runat="server" NavigateUrl="~/Profesor/Exportar.aspx" style="text-align: left; color: #FFFFFF;">Exportar</asp:HyperLink>
-            <br />
-            <br />
-            <br />
             <asp:HyperLink ID="hlImpDS" runat="server" NavigateUrl="~/Profesor/InsertarTareaDataSet.aspx" style="text-align: left; color: #FFFFFF;">Importar y, DataSet</asp:HyperLink>
             <br />
             <br />

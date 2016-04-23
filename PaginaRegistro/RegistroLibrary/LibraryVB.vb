@@ -551,4 +551,34 @@ Public Class LibraryVB
 
     End Function
 
+    Public Function DedicacionMediaAsignatura(ByVal asig As String) As Integer
+
+        Dim Conexion As New SqlClient.SqlConnection
+        Conexion.ConnectionString = "Server=tcp:hads21.database.windows.net,1433;Database=HADS21;User ID=starkgs@hotmail.com@hads21;Password=HADS21perro;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;MultipleActiveResultSets=true"
+
+        Dim dAdapter As New SqlClient.SqlDataAdapter
+        dAdapter.SelectCommand = New SqlClient.SqlCommand("SELECT HReales FROM EstudiantesTareas INNER JOIN TareasGenericas ON CodTarea=Codigo WHERE CodAsig='" & asig & "'", Conexion)
+
+        Dim dSet As New DataSet
+        Dim dTable As New DataTable
+
+        dAdapter.Fill(dSet, "HorasReales")
+
+        dTable = dSet.Tables("HorasReales")
+
+        Dim SumaHoras As Integer = 0
+        Dim cont As Integer = 0
+
+        Dim dRow As DataRow = dTable.NewRow
+
+        While cont < dTable.Rows.Count
+            dRow = dTable.Rows.Item(cont)
+            SumaHoras = SumaHoras + dRow("HReales")
+            cont = cont + 1
+        End While
+
+        Return SumaHoras / cont
+
+    End Function
+
 End Class

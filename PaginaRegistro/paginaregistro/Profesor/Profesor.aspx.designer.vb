@@ -77,15 +77,6 @@ Partial Public Class Profesor
     Protected WithEvents hlImpXMLDoc As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
-    '''Control hlExp.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents hlExp As Global.System.Web.UI.WebControls.HyperLink
-
-    '''<summary>
     '''Control hlImpDS.
     '''</summary>
     '''<remarks>

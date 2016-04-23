@@ -53,19 +53,24 @@ Public Class Inicio
 
             If libVb.isProfesor(Session("email").ToString, lblError.Text) = True Then
 
-                listaLoginP.Add(Session("email").ToString)
-                Application("ListaProf") = listaLoginP
+                If listaLoginP.Contains(txtEmailInc.Text) = False Then
+                    listaLoginP.Add(Session("email").ToString)
+                    Application("ListaProf") = listaLoginP
+                End If
 
                 If txtEmailInc.Text = "vadillo@ehu.es" Then
                     SetAuthCookie("vadillo@ehu.es", False)
+                    Response.Redirect("Profesor/ProfesorVIP.aspx")
                 Else
                     SetAuthCookie("Profesor", False)
+                    Response.Redirect("Profesor/Profesor.aspx")
                 End If
-                Response.Redirect("Profesor/Profesor.aspx")
             Else
 
-                listaLoginA.Add(Session("email").ToString)
-                Application("ListaAlum") = listaLoginA
+                If listaLoginA.Contains(txtEmailInc.Text) = False Then
+                    listaLoginA.Add(Session("email").ToString)
+                    Application("ListaAlum") = listaLoginA
+                End If
 
                 SetAuthCookie("Alumno", False)
                 Response.Redirect("Alumno/Alumno.aspx")

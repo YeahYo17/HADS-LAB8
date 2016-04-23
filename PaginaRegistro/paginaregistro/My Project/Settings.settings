@@ -5,5 +5,8 @@
     <Setting Name="PaginaRegistro_Matriculas_Matriculas" Type="(Web Service URL)" Scope="Application">
       <Value Profile="(Default)">http://sw14.hol.es/ServiciosWeb/comprobarmatricula.php</Value>
     </Setting>
+    <Setting Name="PaginaRegistro_ServCoordWeb_ServCoordinador" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://servwebhads.azurewebsites.net/ServCoordinador.asmx</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

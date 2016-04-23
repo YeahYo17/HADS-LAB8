@@ -1,0 +1,8 @@
+C:\Users\Kevin\Dropbox\Uni\4º Año\HADS\Practicas\Laboratorio 8\Proyecto Visual Studio\HADS-LAB8\PaginaRegistro\ServiciosWeb\bin\ServiciosWeb.dll
+C:\Users\Kevin\Dropbox\Uni\4º Año\HADS\Practicas\Laboratorio 8\Proyecto Visual Studio\HADS-LAB8\PaginaRegistro\ServiciosWeb\bin\ServiciosWeb.pdb
+C:\Users\Kevin\Dropbox\Uni\4º Año\HADS\Practicas\Laboratorio 8\Proyecto Visual Studio\HADS-LAB8\PaginaRegistro\ServiciosWeb\bin\ServiciosWeb.xml
+C:\Users\Kevin\Dropbox\Uni\4º Año\HADS\Practicas\Laboratorio 8\Proyecto Visual Studio\HADS-LAB8\PaginaRegistro\ServiciosWeb\obj\Debug\ServiciosWeb.Resources.resources
+C:\Users\Kevin\Dropbox\Uni\4º Año\HADS\Practicas\Laboratorio 8\Proyecto Visual Studio\HADS-LAB8\PaginaRegistro\ServiciosWeb\obj\Debug\ServiciosWeb.vbproj.GenerateResource.Cache
+C:\Users\Kevin\Dropbox\Uni\4º Año\HADS\Practicas\Laboratorio 8\Proyecto Visual Studio\HADS-LAB8\PaginaRegistro\ServiciosWeb\obj\Debug\ServiciosWeb.dll
+C:\Users\Kevin\Dropbox\Uni\4º Año\HADS\Practicas\Laboratorio 8\Proyecto Visual Studio\HADS-LAB8\PaginaRegistro\ServiciosWeb\obj\Debug\ServiciosWeb.xml
+C:\Users\Kevin\Dropbox\Uni\4º Año\HADS\Practicas\Laboratorio 8\Proyecto Visual Studio\HADS-LAB8\PaginaRegistro\ServiciosWeb\obj\Debug\ServiciosWeb.pdb
